@@ -1,3 +1,5 @@
+import eu.mihosoft.vrl.v3d.Parabola
+
 return [ Parabola.extrudeByEquation(5,0.27,0,1)
 	.move(20,0,0),
 	Parabola.coneByEquation(5,1.27,0.7)
